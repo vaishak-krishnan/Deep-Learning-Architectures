@@ -52,6 +52,47 @@ pip install tensorflow keras numpy matplotlib scikit-learn
 Observations
 # Model Performance Metrics
 
+# Model Performance Metrics
+
+The following tables summarize the performance metrics for LeNet, VGG, ResNet50, and DenseNet across various datasets.
+
+## LeNet
+
+| Dataset      | Accuracy | Precision | Recall | F1 Score | Loss    |
+|--------------|----------|-----------|--------|----------|---------|
+| MNIST        | 0.9896   | 0.9896    | 0.9896 | 0.9896   | 0.037849|
+| Fashion MNIST| 0.8953   | 0.8968    | 0.8953 | 0.8939   | 0.299376|
+| CIFAR-10     | 0.6118   | 0.6123    | 0.6118 | 0.6063   | 1.116107|
+| CIFAR-100    | 0.2823   | 0.2798    | 0.2823 | 0.2668   | 2.949722|
+
+## VGG
+
+| Dataset      | Accuracy | Precision | Recall | F1 Score | Loss    |
+|--------------|----------|-----------|--------|----------|---------|
+| MNIST        | 0.9900   | 0.9900    | 0.9900 | 0.9900   | 0.036561|
+| Fashion MNIST| 0.9174   | 0.9186    | 0.9174 | 0.9176   | 0.280222|
+| CIFAR-10     | 0.1000   | 0.0100    | 0.1000 | 0.0182   | 2.302678|
+| CIFAR-100    | 0.0100   | 0.0001    | 0.0100 | 0.0002   | 4.605198|
+
+## ResNet50
+
+| Dataset      | Accuracy | Precision | Recall | F1 Score | Loss    |
+|--------------|----------|-----------|--------|----------|---------|
+| MNIST        | 0.9644   | 0.9668    | 0.9644 | 0.9648   | 0.361350|
+| Fashion MNIST| 0.9003   | 0.9031    | 0.9003 | 0.9007   | 0.273608|
+| CIFAR-10     | 0.7597   | 0.7668    | 0.7597 | 0.7590   | 0.749169|
+| CIFAR-100    | 0.4397   | 0.4608    | 0.4397 | 0.4369   | 3.813284|
+
+## DenseNet
+
+| Dataset      | Accuracy | Precision | Recall | F1 Score | Loss    |
+|--------------|----------|-----------|--------|----------|---------|
+| MNIST        | 0.9912   | 0.9912    | 0.9912 | 0.9912   | 0.027056|
+| Fashion MNIST| 0.9103   | 0.9134    | 0.9103 | 0.9093   | 0.248037|
+| CIFAR-10     | 0.7908   | 0.7985    | 0.7908 | 0.7926   | 0.630209|
+| CIFAR-100    | 0.5069   | 0.5299    | 0.5069 | 0.4987   | 2.195358|
+
+
 The following tables summarize the performance metrics for DenseNet-169, DenseNet-201, and DenseNet-264 across various datasets.
 
 ## DenseNet-169
