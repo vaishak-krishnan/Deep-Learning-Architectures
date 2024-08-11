@@ -49,6 +49,38 @@ You can install the required packages using pip:
 
 pip install tensorflow keras numpy matplotlib scikit-learn
 
+Observations
+# Model Performance Metrics
+
+The following tables summarize the performance metrics for DenseNet-169, DenseNet-201, and DenseNet-264 across various datasets.
+
+## DenseNet-169
+
+| Dataset      | Accuracy | Precision | Recall | F1 Score | Loss    |
+|--------------|----------|-----------|--------|----------|---------|
+| MNIST        | 0.9858   | 0.9858    | 0.9858 | 0.9858   | 0.060246|
+| Fashion MNIST| 0.8961   | 0.8961    | 0.8961 | 0.8961   | 0.292071|
+| CIFAR-10     | 0.7335   | 0.7335    | 0.7335 | 0.7335   | 0.865075|
+| CIFAR-100    | 0.3500   | 0.3500    | 0.3500 | 0.3500   | 2.759743|
+
+## DenseNet-201
+
+| Dataset      | Accuracy | Precision | Recall | F1 Score | Loss    |
+|--------------|----------|-----------|--------|----------|---------|
+| MNIST        | 0.9920   | 0.9920    | 0.9920 | 0.9920   | 0.032089|
+| Fashion MNIST| 0.8958   | 0.8958    | 0.8958 | 0.8958   | 0.317300|
+| CIFAR-10     | 0.7098   | 0.7098    | 0.7098 | 0.7098   | 1.048192|
+| CIFAR-100    | 0.3578   | 0.3578    | 0.3578 | 0.3578   | 2.660412|
+
+## DenseNet-264
+
+| Dataset      | Accuracy | Precision | Recall | F1 Score | Loss    |
+|--------------|----------|-----------|--------|----------|---------|
+| MNIST        | 0.9829   | 0.9829    | 0.9829 | 0.9829   | 0.072041|
+| Fashion MNIST| 0.8724   | 0.8724    | 0.8724 | 0.8724   | 0.342333|
+| CIFAR-10     | 0.7528   | 0.7528    | 0.7528 | 0.7528   | 0.827284|
+| CIFAR-100    | 0.3455   | 0.3455    | 0.3455 | 0.3455   | 2.765288|
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
